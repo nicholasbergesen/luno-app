@@ -7,8 +7,8 @@ const PORT = process.env.PORT || 3001;
 app.use(express.static('build'));
 
 app.get('/lunoBalance', async (req, res) => {
-    const key = 'njj7ce9qtenk2';
-    const secret = 'BZap4fl61qt9IB8dkvGrw3uc6jH_ptKG-joOAB3u9hw';
+    const key = 'your-key';
+    const secret = 'you-secret';
     const base64Credentials = Buffer.from(`${key}:${secret}`).toString('base64');
 
     try {
