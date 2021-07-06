@@ -1,5 +1,5 @@
 # luno-app
-Basic setup query the LunoApi from a reactjs application hosted on a nodejs server.
+Basic setup to query the LunoApi from a reactjs application hosted on a nodejs server.
 
 ## Setup
 - Generate an api key and secret on your luno.com account. (https://www.luno.com/wallet/security/api_keys)
